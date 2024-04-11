@@ -1,0 +1,21 @@
+.advertisement-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.advertisement-row-item {
+  flex: 0 0 33.33%; 
+  margin: 5px;
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+}
+
+.advertisement-row-item img {
+  max-width: 150%; 
+  max-height: 150%; 
+  width: auto; 
+  height: auto; 
+}
